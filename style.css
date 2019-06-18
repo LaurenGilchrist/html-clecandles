@@ -1,0 +1,263 @@
+html {
+	font-size: 22px;
+	margin-top: 0;
+	font-family: 'Indie Flower', cursive, serif;
+
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 75 25;
+	grid-template-rows: 1vw 1vw 1vw 1vw 10vw;
+	padding: 10px;
+	width: 100%;
+	margin: 2rem auto;
+	max-width: 2000px;
+}
+
+.grid-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+	font-size: 30px;
+	text-align: center;
+}
+
+.Logo {
+	width: 500px;
+	padding-top: 100px;
+}
+body {
+	background-image: url("./images/Sky-Clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+}	
+
+header, footer {
+	grid-column: 1/ 2 span;
+
+}
+
+ 
+main,
+aside,
+footer {
+	background: url("./images/sand2.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+nav ul{
+	display: flex;
+	font-size: 18px;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+	background-color: none;
+}
+
+nav li a {
+	display: block;
+	color: #1F75BB;
+	padding: 8px 16px;
+	text-decoration: underline;
+}
+
+nav li a:hover {
+	background-color: #4FABF5;
+	color: white;
+}
+
+.wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Turtle{
+	width: 200px;
+	display: flex;
+
+}
+.Candle {
+	width: 200px;
+	display: flex;
+}
+.Monkey {
+	width: 200px;
+	display: flex;
+}
+.Pig {
+	width: 200px;
+	display: flex;
+}
+
+
+.Whole {
+	width: 200px;
+	display: flex;
+}
+
+.Three {
+	width: 200px;
+	display: flex;
+}
+
+
+
+.Turtle,
+.Candle,
+.Monkey,
+.Pig,
+.Whole,
+.Glasses,
+.Three {
+	display: inline-block;
+	
+}
+
+img {
+	width: 200px;
+	height: 200px
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#candles {
+	width: 100%;
+	text-align: center;
+
+}
+
+.picture {
+grid-column: 1/-1;
+display: flex;
+background-image: url("./images/palmtrees2.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+align-items: center;
+max-width: 100%;
+max-height: auto;
+
+
+}
+.SixPack {
+	max-height: 50000px;
+}
+.CccBox {
+	float: right;
+}
+
+ul {
+	align-items: center;
+}
+.contact {
+	display: flex;
+	grid-column: 1/-1;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+
+	
+}
+
+.sidebar_content .mail a {
+	color:#581845;
+}
+
+.footer {
+  display: flex;
+  grid-column: 1/-1;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4em;
+  height: 450px;
+  padding: 30px;
+  padding-bottom: 45px;
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 100%;
+ /* font-weight: 2000;*/
+
+
+
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+ /* margin: .1em;*/
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+	background: #d6249f;
+	color: #fff;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+	/*margin: .1em;*/
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.top {
+  display: flex;	
+  position: center;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 1px;
+  border-radius: 8px;
+}
+
+.top:hover {
+  background-color: #555;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
